@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ahad Raza | My Website</title>
+
+
+    <style>
+/* ===== MOBILE RESPONSIVE ===== */
+/* ===== HERO SECTION ===== */
+
+#home {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #2563eb;
+    margin-bottom: 20px;
+}
+#home h1 {
+    margin-bottom: 10px;
+}
+
+#home h2 {
+    margin-top: 10px;
+}
+#about {
+    background: #f0f4f8;
+    padding: 80px 20px;
+}
+
+#about h2 {
+    color: #2563eb;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+#about button {
+    margin-top: 20px;
+}
+/* ===== ABOUT SECTION ===== */
+
+#about {
+    background: #f8fafc;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+}
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 50px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .project-card {
+        width: auto;
+        margin: 20px 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
+        /* ===== BODY ===== */
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        /* ===== NAVIGATION ===== */
+
+        nav {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-size: 17px;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+
+        /* ===== SECTIONS ===== */
+
+        section {
+            padding: 70px 20px;
+        }
+
+
+        /* ===== HOME ===== */
+
+        
+        }
+
+        h1 {
+            color: #2563eb;
+            font-size: 45px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 30px;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+
+        /* ===== BUTTON ===== */
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+
+        /* ===== SKILLS ===== */
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+.skill-bar {
+    width: 250px;
+    height: 20px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.skill-progress {
+    height: 100%;
+    background: #2563eb;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.html-progress {
+    width: 90%;
+}
+        .skill {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+.skill {
+    transition: 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+        /* ===== PROJECTS ===== */
+
+        .project-card {
+            background: white;
+            width: 300px;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+.project-card {
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+        .project-card h3 {
+            color: #2563eb;
+        }
+
+
+        /* ===== CONTACT FORM ===== */
+
+        form {
+            max-width: 400px;
+            margin: 30px auto;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+        textarea {
+            resize: vertical;
+        }
+
+
+        /* ===== FOOTER ===== */
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 25px;
+        }
+footer {
+    margin-top: 30px;
+    font-size: 16px;
+}
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+
+    <!-- HOME -->
+
+    <section id="home">
+<img src="./ahad.png.png" alt="Ahad Raza" class="profile-photo">
+        <h1>Hi, I'm Ahad Raza 👋</h1>
+
+        <h2>I'm Learning Web Development</h2>
+
+        <p>
+            Welcome to my first professional website.
+            I am learning HTML, CSS and JavaScript.
+        </p>
+
+        <button onclick="showProjects()">
+            View My Projects
+        </button>
+
+    </section>
+
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        Hello! My name is Ahad Raza.
+        I am a beginner web developer who is learning
+        HTML, CSS and JavaScript.
+    </p>
+
+    <p>
+        I enjoy creating websites and learning new
+        technologies. My goal is to become a professional
+        full-stack web developer.
+    </p>
+
+    <button onclick="alert('CV will be available soon!')">
+        Download CV
+    </button>
+
+</section>
+
+
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">
+
+    <h3>HTML</h3>
+
+    <div class="skill-bar">
+        <div class="skill-progress html-progress">
+            90%
+        </div>
+        .css-progress {
+    width: 80%;
+}
+    </div>
+
+</div>
+
+            <div class="skill">
+
+    <h3>CSS</h3>
+
+    <div class="skill-bar">
+        <div class="skill-progress css-progress">
+            80%
+        </div>
+    </div>
+
+</div>
+
+           <div class="skill">
+
+    <h3>JavaScript</h3>
+
+    <div class="skill-bar">
+        <div class="skill-progress js-progress">
+            80%
+        </div>
+    </div>
+
+</div>
+
+          <div class="skill">
+
+    <h3>Web Design</h3>
+
+    <div class="skill-bar">
+        <div class="skill-progress web-progress">
+            75%
+        </div>
+    </div>
+
+</div>
+        </div>
+
+    </section>
+
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+
+        <div class="project-card">
+
+            <h3>My First Website</h3>
+
+            <p>
+                This is my first website created using HTML and CSS.
+            </p>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <h3>My Portfolio</h3>
+
+            <p>
+                I am building my personal portfolio website.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>
+            Send me a message.
+        </p>
+
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        © 2026 Ahad Raza - My Website
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        function showProjects() {
+
+            document.getElementById("projects").scrollIntoView({
+                behavior: "smooth"
+            });
+
+        }
+
+
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            let name = document.getElementById("name").value;
+
+            alert("Thank you, " + name + "! Your message was received.");
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>
